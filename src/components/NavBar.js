@@ -1,14 +1,19 @@
 import { Navbar , Nav , NavDropdown } from "react-bootstrap"
 import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+{/* Lista de iconos */}
 import { faGamepad , faUser, faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from "react-router-dom";
 
 export const NavBar = () => {
     return(
+        
+
         <Navbar expand="lg" className="bg-blue">
+            {/* Componente Navbar de bootstrap - para ver el menu*/}
             <Container fluid>
                 <Navbar.Brand href="#">
+                    {/* Componente FontAwesomeIcon para insertar iconos */}
                     <FontAwesomeIcon icon={faGamepad} color={"#FFF"} size={ "2x" }/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

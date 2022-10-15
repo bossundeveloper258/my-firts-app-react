@@ -15,6 +15,7 @@ export const Ranking = () => {
                         </Row>
                         <Row className="ps-5">
                             <Col className='text-start p-5 pt-0' md={6}>
+                                {/* Componente Card de bootstrap */}
                                 <Card className="mb-5 border-0">
                                     <Card.Img variant="top" src="img/Rubius-streaming.jpg" />
                                     <Card.Body>
@@ -35,6 +36,7 @@ export const Ranking = () => {
                                 </Card>
                             </Col>
                             <Col className='text-start p-5 pt-0' md={6}>
+                                {/* Componente Card de bootstrap */}
                                 <Card className="mb-5 border-0">
                                     <Card.Img variant="top" src="img/1500x844-imagen1-5.jpg" />
                                     <Card.Body>

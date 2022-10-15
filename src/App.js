@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <div className="container-fluid bg-blue vh-100">
         <NavBar></NavBar>
+        {/* List de rutas - body */}
         <Routes>
             <Route exact path='/' element={< Home />}></Route>
             <Route exact path='/about' element={< About />}></Route>
